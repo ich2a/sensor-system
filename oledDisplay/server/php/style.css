@@ -1,0 +1,101 @@
+
+body{
+  margin-left: 3%;
+  background-color: rgb(35, 35, 35);
+  color: rgb(235, 235, 235);
+}
+
+h1{
+    color: rgb(0, 162, 234);
+}
+
+h2{
+    color: rgb(0, 162, 234);
+}
+
+h3{
+    color: rgb(0, 162, 234);
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    margin-left: -2.5%;
+}
+
+li{
+    margin-right: 10px;
+    padding-right: 3px !important;
+    font-size: 2rem;
+    padding: 5px;
+
+}
+
+li a:link{
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    border-style: solid;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+li a:visited{
+    color: rgb(235, 235, 235);
+}
+li a:hover{
+    border-color: rgb(0, 162, 234);
+}
+.footer{
+    font-size: 20px;
+
+    height: 35px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 122, 204);
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+
+}
+.footer a:link{
+    text-decoration: none;
+    color: white;
+}
+.footer a:visited{
+    color: white;
+}
+.footer a:hover{
+    color: black !important;
+}
+a:link{
+    color: rgb(0, 162, 234);
+    text-decoration: none;
+}
+a:hover{
+    color: white !important;
+}
+a:visited{
+    color: rgb(0, 162, 234);
+    text-decoration: none;
+
+}
+.formhead{
+    color: rgb(0, 162, 234);
+}
+
+.submit{
+    background-color: rgb(255, 255, 255);
+    border-width: 5px;
+    border-color: rgb(0, 162, 234);
+}
+.submit:hover{
+    background-color: rgb(0, 162, 234);
+}
+.submit{
+    margin-bottom: 40px;
+}
+
+
+
