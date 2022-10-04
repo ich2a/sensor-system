@@ -82,6 +82,6 @@ else {
 }
 delay(100);
 digitalWrite(led, LOW);
-ESP.deepSleep(3.6e+9);
+ESP.deepSleep(3.6e+9); //1h in uS
 
 }
